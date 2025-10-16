@@ -1,17 +1,17 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Language, View, QuoteFormData, QuoteResult } from './types';
 import { computeBallpark, generateWhatsAppLink } from './services/quoteService';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import QuoteForm from './components/QuoteForm';
-import Result from './components/Result';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import HowItWorks from './components/HowItWorks';
-import Testimonials from './components/Testimonials';
-import FloatingWhatsApp from './components/FloatingWhatsApp';
-import ForSale from './components/ForSale';
+import Header from './Header';
+import Hero from './Hero';
+import QuoteForm from './QuoteForm';
+import Result from './Result';
+import About from './About';
+import Contact from './Contact';
+import Footer from './Footer';
+import HowItWorks from './HowItWorks';
+import Testimonials from './Testimonials';
+import FloatingWhatsApp from './FloatingWhatsApp';
+import ForSale from './ForSale';
 
 declare global {
     interface Window {

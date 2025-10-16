@@ -1,7 +1,5 @@
 import { Translations } from './types';
 
-// ملاحظة: لقد أضفت مفاتيح رسائل الأخطاء الجديدة (مثل required، nameMustBeArabic، إلخ) هنا.
-
 export const translations: Translations = {
   en: {
     navHome: "Home",
